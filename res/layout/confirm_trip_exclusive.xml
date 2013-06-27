@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:background="@drawable/background2"
+    android:layout_height="match_parent" >
+    
+    <Button
+        android:id="@+id/confirm_trip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" android:background="@drawable/blue_button"
+        android:layout_centerHorizontal="true" android:textStyle="bold" android:textColor="#ffffffff"
+        android:layout_marginBottom="66dp"
+        android:text="CONFIRM" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1.0"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="90.0dip"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="Car Id.:"
+                android:textColor="#ff000000"
+                android:textSize="15.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/car_id"
+                android:layout_width="80.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="7656"
+                android:textColor="#ff000000"
+                android:textSize="10.0dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="90.0dip"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="Date:"
+                android:textColor="#ff000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/trip_date"
+                android:layout_width="80.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="2013-12-03"
+                android:textColor="#ff000000"
+                android:textSize="10.0dip" />
+             <TextView
+                android:layout_width="90.0dip"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="Capacity:"
+                android:textColor="#ff000000"
+                android:textSize="15.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/car_seatingcapacity"
+                android:layout_width="80.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="6"
+                android:textColor="#ff000000"
+                android:textSize="10.0dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="90.0dip"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="Driver Id.: "
+                android:textColor="#ff000000"
+                android:textSize="15.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/driver_id"
+                android:layout_width="80.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="6"
+                android:textColor="#ff000000"
+                android:textSize="10.0dip" />
+
+            <TextView
+                android:layout_width="90.0dip"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="No.of Passengers: "
+                android:textColor="#ff000000"
+                android:textSize="15.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/no_of_passengers"
+                android:layout_width="80.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="4"
+                android:textColor="#ff000000"
+                android:textSize="10.0dip" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="90.0dip"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="Car Model:"
+                android:textColor="#ff000000"
+                android:textSize="15.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/car_model"
+                android:layout_width="80.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="indica"
+                android:textColor="#ff000000"
+                android:textSize="10.0dip" />
+
+            <TextView
+                android:layout_width="90.0dip"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="Air Cond.:"
+                android:textColor="#ff000000"
+                android:textSize="15.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/car_acnonac"
+                android:layout_width="80.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="Y"
+                android:textColor="#ff000000"
+                android:textSize="10.0dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+           
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="90.0dip"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="Reg No.:"
+                android:textColor="#ff000000"
+                android:textSize="15.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/car_number"
+                android:layout_width="80.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="6"
+                android:textColor="#ff000000"
+                android:textSize="10.0dip" />
+
+            <TextView
+                android:layout_width="90.0dip"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="Car Rating: "
+                android:textColor="#ff000000"
+                android:textSize="15.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/car_rating"
+                android:layout_width="80.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="4/6"
+                android:textColor="#ff000000"
+                android:textSize="10.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/confirm_trip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp" android:textStyle="bold" android:textColor="#ff777777"
+        android:text="Do you want to confirm?"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="69dp"
+        android:text="You have selected the exclusive Car with following details."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ff777777"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="90.0dip"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="bottom|left|center"
+            android:text="To: "
+            android:textColor="#ff000000"
+            android:textSize="15.0dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/trip_to"
+            android:layout_width="80.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1.0"
+            android:ellipsize="end"
+            android:gravity="bottom|left|center"
+            android:text="6"
+            android:textColor="#ff000000"
+            android:textSize="10.0dip" />
+
+        <TextView
+            android:layout_width="90.0dip"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="bottom|left|center"
+            android:text="From:"
+            android:textColor="#ff000000"
+            android:textSize="15.0dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/trip_from"
+            android:layout_width="80.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1.0"
+            android:ellipsize="end"
+            android:gravity="bottom|left|center"
+            android:text="4/6"
+            android:textColor="#ff000000"
+            android:textSize="10.0dip" />
+    </LinearLayout>
+
+</RelativeLayout>

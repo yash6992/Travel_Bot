@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#ffffffff" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="90.0dip"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="Car Id.:"
+                android:textColor="#ff000000"
+                android:textSize="15.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/car_id"
+                android:layout_width="80.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="7656"
+                android:textColor="#ff000000"
+                android:textSize="10.0dip" />
+        
+        </LinearLayout>
+         <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="90.0dip"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="bottom|left|center"
+            android:text="Trip Id.:"
+            android:textColor="#ff000000"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/travel_id"
+                android:layout_width="80.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="0909"
+                android:textColor="#ff000000"
+                android:textSize="10.0dip" />
+             <TextView
+            android:layout_width="90.0dip"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="bottom|left|center"
+            android:text="Date:"
+            android:textColor="#ff000000"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/trip_date"
+                android:layout_width="80.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="2013-12-03"
+                android:textColor="#ff000000"
+                android:textSize="10.0dip" />
+        
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="90.0dip"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="Car Model:"
+                android:textColor="#ff000000"
+                android:textSize="15.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/car_model"
+                android:layout_width="80.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="indica"
+                android:textColor="#ff000000"
+                android:textSize="10.0dip" />
+            
+            <TextView
+            android:layout_width="90.0dip"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="bottom|left|center"
+            android:text="Air Cond.:"
+            android:textColor="#ff000000"
+            android:textSize="15.0dip"
+            android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/car_acnonac"
+                android:layout_width="80.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="Y"
+                android:textColor="#ff000000"
+                android:textSize="10.0dip" />
+
+        
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+            
+            <TextView
+            android:layout_width="90.0dip"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="bottom|left|center"
+            android:text="Capacity:"
+            android:textColor="#ff000000"
+            android:textSize="15.0dip"
+            android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/car_seatingcapacity"
+                android:layout_width="80.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="6"
+                android:textColor="#ff000000"
+                android:textSize="10.0dip" />
+            <TextView
+                android:layout_width="90.0dip"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="Availability:"
+                android:textColor="#ff000000"
+                android:textSize="15.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/car_remaining_seats"
+                android:layout_width="80.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="4/6"
+                android:textColor="#ff000000"
+                android:textSize="10.0dip" />
+            
+        
+
+        
+        
+        </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

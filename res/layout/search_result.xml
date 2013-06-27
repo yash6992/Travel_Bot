@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Search Results"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ff505050"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="90.0dip"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="Date:"
+                android:textColor="#ff000000"
+                android:textSize="15.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="80.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="12.3.2013"
+                android:textColor="#ff000000"
+                android:textSize="10.0dip" />
+
+            <TextView
+                android:layout_width="90.0dip"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="Time:"
+                android:textColor="#ff000000"
+                android:textSize="15.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="80.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="04:30pm"
+                android:textColor="#ff000000"
+                android:textSize="10.0dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="90.0dip"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="To:"
+                android:textColor="#ff000000"
+                android:textSize="15.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/destination"
+                android:layout_width="80.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="Pilani"
+                android:textColor="#ff000000"
+                android:textSize="10.0dip" />
+
+            <TextView
+                android:layout_width="90.0dip"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="From:"
+                android:textColor="#ff000000"
+                android:textSize="15.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/source"
+                android:layout_width="80.0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:gravity="bottom|left|center"
+                android:text="New Delhi"
+                android:textColor="#ff000000"
+                android:textSize="10.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+<LinearLayout   android:id="@+id/linearLayout2" android:layout_below="@+id/linearLayout1" android:orientation="horizontal" android:background="@drawable/header_stripe" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginTop="10.0dip" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginTop="5dp"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+        
+        <ListView android:id="@id/android:list"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/background2" 
+	android:divider="#ffcccccc" android:dividerHeight="1.0px"
+	android:layout_weight="2"
+	android:drawSelectorOnTop="false">
+	</ListView>
+        
+    </LinearLayout>
+
+</RelativeLayout>

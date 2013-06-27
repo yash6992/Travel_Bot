@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/login"
+        android:layout_alignBottom="@+id/login"
+        android:layout_alignParentRight="true" android:textStyle="bold" android:textColor="#ffffffff"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/blue_button"
+        android:text="REGISTER" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pwd_login"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="36dp" android:textStyle="bold" android:textColor="#ffffffff"
+        android:background="@drawable/green_button"
+        android:text="LOGIN" />
+
+    <EditText
+        android:id="@+id/pwd_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_alignLeft="@+id/login"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/register"
+        android:layout_marginTop="195dp"
+        android:background="@drawable/white_background"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/user_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/pwd_login"
+        android:layout_alignLeft="@+id/pwd_login"
+        android:layout_alignRight="@+id/register"
+        android:layout_marginBottom="57dp"
+        android:background="@drawable/white_background"
+        android:ems="10"
+        android:hint="Username" />
+
+    <Button
+        android:id="@+id/close_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold" 
+        android:layout_toRightOf="@+id/user_login"
+        android:textColor="#FFF"
+        android:background="@drawable/red_button"
+        android:text="X" />
+
+</RelativeLayout>
